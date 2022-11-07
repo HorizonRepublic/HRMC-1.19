@@ -64,4 +64,4 @@ config/jei/lookupHistory.zip
 config/jei/bookmarks.ini
 config/Mekanism/*-client.toml
 config/Mekanism/client.toml
-
+config/rubidium-options.json
