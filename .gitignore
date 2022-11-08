@@ -65,3 +65,6 @@ config/jei/bookmarks.ini
 config/Mekanism/*-client.toml
 config/Mekanism/client.toml
 config/rubidium-options.json
+#config/oculus.properties
+
+!config/blue_skies-client.toml
