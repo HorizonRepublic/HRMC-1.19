@@ -68,3 +68,6 @@ config/rubidium-options.json
 config/oculus.properties
 
 !config/blue_skies-client.toml
+
+# backups
+/backups/
