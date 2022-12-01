@@ -70,5 +70,9 @@ config/oculus.properties
 
 !config/blue_skies-client.toml
 
+
+# Menu
+!resources/mc_cave_animation_2cfb5f2c6ab641c1.zip
+
 # backups
 /backups/
