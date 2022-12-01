@@ -1,0 +1,119 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  restart_on_load = false
+  name = mc_cave_animation_2cfb5f2c6ab641c1
+  action = animatebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 90
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 20d83402-8cbd-41f8-848c-ad40e4cff45e1669917473519
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 195f74cd-f9ad-4403-ade6-5b47041616ff1669917473524
+  y = 225
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 219
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 54056cae-d74c-49b1-a244-6901b568b1d91669917473525
+  y = 247
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 327
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e236c9eb-22e6-4eca-aa48-7a52f26e9bb71669917473525
+  y = 166
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 87
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = ade01ee4-06aa-4de6-b87e-59f56dcf64621669917473525
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = ed2d7242-b16f-45b6-9581-19653cfd2fb41669917473525
+  y = 0
+  height = 30
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+

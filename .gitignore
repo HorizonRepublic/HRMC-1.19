@@ -24,6 +24,7 @@
 *.dll
 **/*.zip
 /docker/**
+/fancymenu_data/
 
 # MacOSX
 .DS_Store
