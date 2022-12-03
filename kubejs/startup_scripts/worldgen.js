@@ -34,9 +34,14 @@ WorldgenEvents.add(event => {
         ore.biomes = ['allthemodium:mining']
         ore.addTarget('minecraft:stone', 'mekanism:fluorite_ore')
         ore.addTarget('minecraft:deepslate', 'mekanism:deepslate_fluorite_ore')
-        ore.size(5)
-        ore.count(5)
-        ore.squared()
-        ore.uniformHeight(64, 254)
+        ore.size(9)
+        ore.count([15, 50])
+				.squared()
+				.triangleHeight(
+						anchors.aboveBottom(64),
+						anchors.absolute(254)
+				)
+        // ore.squared()
+        // ore.uniformHeight(64, 254)
       })
   })

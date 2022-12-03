@@ -25,6 +25,7 @@
 **/*.zip
 /docker/**
 /fancymenu_data/
+/blueprints/
 
 # MacOSX
 .DS_Store
