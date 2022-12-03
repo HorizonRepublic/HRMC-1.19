@@ -1,6 +1,8 @@
 JEIEvents.hideItems(event => {
     // Uncrafting Table
     event.hide('twilightforest:uncrafting_table')
+    event.hide(/extrastorage:(block|disk|storagepart)_.+/)
+    event.hide(/rebornstorage:(small|medium|large|larger)_(item|fluid)_disk.*/)
 
     // Refined Storage Colors
     Color.DYE.forEach(color => {
@@ -10,3 +12,4 @@ JEIEvents.hideItems(event => {
     })
   
   })
+  

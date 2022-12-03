@@ -53,6 +53,7 @@ minecraft-1.18.2-*
 minecraft-1.19.2-*
 rhino.local.properties
 patchouli_data.json
+TrashSlotSaveState.json
 
 # GDLauncher
 config.json
