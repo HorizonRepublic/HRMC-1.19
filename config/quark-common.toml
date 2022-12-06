@@ -1,6 +1,6 @@
 
 [general]
-	"Enable 'q' Button" = true
+	"Enable 'q' Button" = false
 	"'q' Button on the Right" = false
 	"Disable Q Menu Effects" = false
 	#Disable this to turn off the quark system that makes features turn off when specified mods with the same content are loaded
@@ -40,12 +40,12 @@
 	World = true
 	Mobs = true
 	Client = true
-	Experimental = true
-	Oddities = true
+	Experimental = false
+	Oddities = false
 
 [automation]
 	"Redstone Randomizer" = true
-	"Pistons Move Tile Entities" = true
+	"Pistons Move Tile Entities" = false
 	"Obsidian Plate" = true
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
@@ -218,9 +218,9 @@
 		"Enable Stick Block" = true
 		"Enable Apple Crate" = true
 		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
@@ -236,10 +236,10 @@
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
-	"Inventory Sorting" = true
+	"Inventory Sorting" = false
 	"Hotbar Changer" = true
 	"Expanded Item Interactions" = true
-	"Easy Transfering" = true
+	"Easy Transfering" = false
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
@@ -409,7 +409,7 @@
 	"Vexes Die With Their Masters" = true
 	"Utility Recipes" = true
 	"Snow Golem Player Heads" = true
-	"Simple Harvest" = true
+	"Simple Harvest" = false
 	"Sign Editing" = true
 	"Shulker Packing" = true
 	"Replace Scaffolding" = true
@@ -427,15 +427,15 @@
 	Emotes = true
 	"Dragon Scales" = true
 	"Double Door Opening" = true
-	"Compasses Work Everywhere" = true
+	"Compasses Work Everywhere" = false
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
 	"Armed Armor Stands" = true
 	"Skull Pikes" = true
-	"Zombie Villagers On Normal" = true
-	"Safe Rabbits" = true
-	"Renewable Spore Blossoms" = true
+	"Zombie Villagers On Normal" = false
+	"Safe Rabbits" = false
+	"Renewable Spore Blossoms" = false
 
 	[tweaks.utility_recipes]
 		#Can any wool color be dyed?
@@ -461,9 +461,9 @@
 		#Can torches can be used as fuel in furnaces?
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
-		"Bone Meal Utility" = true
+		"Bone Meal Utility" = false
 		#Can Charcoal be crafted into Black Dye?
-		"Charcoal To Black Dye" = true
+		"Charcoal To Black Dye" = false
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
@@ -554,10 +554,10 @@
 		"Custom Emote Debug" = false
 
 	[tweaks.compasses_work_everywhere]
-		"Enable Compass Nerf" = true
-		"Enable Clock Nerf" = true
-		"Enable Nether" = true
-		"Enable End" = true
+		"Enable Compass Nerf" = false
+		"Enable Clock Nerf" = false
+		"Enable Nether" = false
+		"Enable End" = false
 
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5
@@ -996,7 +996,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1354,7 +1354,7 @@
 
 	[client.improved_tooltips]
 		"Attribute Tooltips" = true
-		"Food Tooltips" = true
+		"Food Tooltips" = false
 		"Shulker Tooltips" = true
 		"Map Tooltips" = true
 		"Enchanting Tooltips" = true
