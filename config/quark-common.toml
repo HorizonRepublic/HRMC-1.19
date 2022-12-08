@@ -77,6 +77,8 @@
 		#Allowed values: (0,1]
 		"Love Chance" = 0.333333333
 		Range = 10.0
+		#Set to false to make it so animals look for a nearby trough every time they want to eat instead of remembering the last one. Can affect performance if false.
+		"Enable Trough Caching" = true
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
@@ -464,6 +466,10 @@
 		"Bone Meal Utility" = false
 		#Can Charcoal be crafted into Black Dye?
 		"Charcoal To Black Dye" = false
+		#Can two Logs be used instead of a Chest to make a Hopper?
+		"Easy Hopper" = true
+		#Can two Logs be used to craft 16 sticks?
+		"Easy Sticks" = true
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
