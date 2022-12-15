@@ -115,4 +115,16 @@ disabledPlanets = ""
 [cryoFreezer]
 	maxEnergy = 30000
 	energyPerTick = 3000
+	tankSize = 3000
+
+[oxygenDistributor]
+	maxEnergy = 20000
+	fluidConversionEnergyPerTick = 5
+	tankSize = 6000
+	#Range: 1 ~ 50000
+	maxBlockChecks = 2000
+	#Range: 0 ~ 500
+	refreshTicks = 60
+	oxygenMultiplier = 1.0
+	energyMultiplier = 3.0
 
