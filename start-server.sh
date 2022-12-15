@@ -84,7 +84,7 @@ remove_client_mods() {
 	echo ""
 	echo ""
 	echo "Remove clients mods"
-	allClientMods=("Ding" "ReAuth" "moreoverlays" "Neat" "ToastControl" "PackMenu" "CustomWindowTitle" "BetterF3" "MouseTweaks" "LegendaryTooltips" "oculus" "rubidium")
+	allClientMods=("Ding" "ReAuth" "moreoverlays" "Neat" "ToastControl" "PackMenu" "CustomWindowTitle" "BetterF3" "MouseTweaks" "LegendaryTooltips" "oculus" "rubidium" "loadmyresources")
 	for f in ${allClientMods[@]}; do
         rm /minecraft-server/mods/${f}*.jar
 		rm ./mods/${f}*.jar
